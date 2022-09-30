@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #121221;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+}
+
+.sketch {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+
+    /* Dimentions */
+    width:auto;
+    height: 100vh;
+
+    /* Animation */
+    stroke-dasharray: 17975.623046875px;
+    stroke-dashoffset: 17975.623046875px;
+    animation: move 3s ease-in-out forwards;
+    stroke: #fff;
+}
+
+@keyframes move {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
