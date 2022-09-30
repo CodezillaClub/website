@@ -133,7 +133,16 @@
   .content label {
     line-height: 1.5rem;
   }
-  
+  .social-links{
+      border-radius:50%;
+      border-style: solid;
+      border-color: red;
+      border-size: 5px;
+      
+}
+.social-links:hover{
+    border-color: green;
+}
   .content .field {
     height: 1.5rem;
     width: 20rem;
