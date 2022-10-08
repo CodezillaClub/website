@@ -155,11 +155,8 @@
   }
   
   .team-icons {
-    margin: 1rem 10rem 0 10rem;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: flex-start;
+    margin: 0 auto;
+    display: block;
   }
   
   .team-icons img {
