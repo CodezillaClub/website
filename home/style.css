@@ -140,7 +140,6 @@
   }
   
   .content p {
-    margin: 1rem 15rem;
     line-height: 1.5em;
     text-indent: 2em;
     text-align: left;
@@ -148,12 +147,25 @@
   }
   
   .content ul {
-    margin: 1rem 17rem;
     line-height: 1.5em;
-    text-align: left;
     color: white;
   }
   
+  .what_we_do {
+    text-align: left;
+    margin-left: 25%;
+  }
+
+  .what_we_do_main {
+    width: 300px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+  }
+  .what_we_do_main ul {
+    margin-top: 30px;
+  }
+
   .team-icons {
     margin: 0 auto;
     display: block;
