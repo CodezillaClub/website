@@ -3,13 +3,12 @@ description: File a bug report
 title: "[Bug]: (Enter short, one sentence summary of bug here)"
 labels: ["Bug / Error"]
 assignees:
-  - ThioJoe
+
 body:
   - type: markdown
     attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
-
   - type: checkboxes
     id: no-issues-relating-to-this
     attributes:
