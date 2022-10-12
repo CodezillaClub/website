@@ -5,8 +5,8 @@ labels: ["Bug / Error"]
 assignees:
 
 body:
-  - type: markdown
-attributes:
+ - type: markdown
+  attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: checkboxes
