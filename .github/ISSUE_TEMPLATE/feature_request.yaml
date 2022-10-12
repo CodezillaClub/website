@@ -4,7 +4,7 @@ title: [FEAT]: (Enter short, one sentence summary of feature here)"
 labels: ["enhancement"]
 assignees:
   - Codezilla-Club
-  body:
+body:
   - type: markdown
     attributes:
       value: |
