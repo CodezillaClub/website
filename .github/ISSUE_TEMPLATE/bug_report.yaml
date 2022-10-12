@@ -3,12 +3,13 @@ description: File a bug report
 title: "[Bug]: (Enter short, one sentence summary of bug here)"
 labels: ["Bug / Error"]
 assignees:
-
+  - Codezilla-Club
 body:
- - type: markdown
-  attributes:
+  - type: markdown
+    attributes:
       value: |
         Thanks for taking the time to fill out this bug report!
+        
   - type: checkboxes
     id: no-issues-relating-to-this
     attributes:
@@ -28,7 +29,7 @@ body:
       value: "Well, I was trying to ... but then ..."
     validations:
       required: true
-   - type: textarea
+  - type: textarea
     id: steps-to-reproduce
     attributes:
       label: Steps to reproduce
@@ -50,15 +51,15 @@ body:
         - Windows
         - MacOS
         - Linux (can also be ChromeOS)
-        - Android
         - iPhone
+        - Android
     validations:
       required: true
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
-      description: Copy and paste from tracebacks, aka any error message text that appears in console, etc
+      description: Copy and paste from tracebacks, aka any error message text that appears in the console
       render: shell
   - type: textarea
     id: screenshots
