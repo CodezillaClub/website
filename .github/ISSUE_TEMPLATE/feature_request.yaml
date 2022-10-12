@@ -1,0 +1,30 @@
+name: Bug Report
+description: Suggest an idea for this project
+title: [FEAT]: (Enter short, one sentence summary of feature here)"
+labels: ["enhancement"]
+assignees:
+  - Codezilla-Club
+  body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
+  - type: textarea
+    id: addition
+    attributes:
+      label: Summary
+      description: Summary of the Feature you want to add.
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-method
+    attributes:
+      label: Proposed Method
+      description: Proposed Method of the feature you want to add.
+    validations:
+      required: true     
+      - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: (Screenshots can be uploaded by simply dragging an image file into this box)
