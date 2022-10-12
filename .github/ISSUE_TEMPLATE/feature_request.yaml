@@ -11,7 +11,7 @@ assignees:
         Thanks for taking the time to fill out this feature request!
   - type: textarea
     id: addition
-    attributes:
+ attributes:
       label: Summary
       description: Summary of the Feature you want to add.
     validations:
