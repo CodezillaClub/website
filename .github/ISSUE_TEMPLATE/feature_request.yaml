@@ -10,12 +10,10 @@ body:
       value: |
         Thanks for taking the time to fill out this feature request!
   - type: textarea
-    id: what-happened
+    id: addition
     attributes:
-      label: What happened?
-      description: Also tell me, what did you expect to happen?
-      placeholder: Tell me what you see!
-      value: "Well, I was trying to ... but then ..."
+      label: Summary
+      description: Summary of the Feature you want to add.
     validations:
       required: true
   - type: textarea
