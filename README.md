@@ -1,38 +1,5 @@
-# [CODEZILLA Community of SRM Ramapuram](https://codezilla-club.github.io/website/home/)  welcomes you <br>
 <img src="https://user-images.githubusercontent.com/61582763/134523423-b3ee3a5a-6524-4404-9fbd-3fb33a2005af.png" alt="Banner Image" width=100%>
-
-
-
-
-<p align="center">
-<img src="https://forthebadge.com/images/badges/built-by-developers.svg" alt=" forks"/>
-<img src="https://forthebadge.com/images/badges/check-it-out.svg" al="forks"/>
-<img src="https://forthebadge.com/images/badges/built-with-love.svg" alt=" forks"/>
-<img src="https://forthebadge.com/images/badges/makes-people-smile.svg" alt=" forks"/>
-<h2>📌<a href="https://codezilla-club.github.io/website/home/">Visit our website 🚀</a>
-</p>
-<br>
-
-This repo contains the code for our [Community's official website.](https://codezilla-club.github.io/website/home/)
-
-Want to know more about our community? Check out our [Community Portal.](https://community.mozilla.org/en/groups/codezilla/)
-
-
-## 📌 Tech Stack
-
-![HTML](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
-![JS](https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-
-
-
-
-
-
-
-## 💬 Connect with Us 
-
-<p align = "left">
+<p align = "center">
 <a href = "https://twitter.com/CodezillaClub">
 <img src="https://user-images.githubusercontent.com/61582763/134527992-45c871a2-cf09-40ca-8be6-ffb258799300.png">
 </a>  
@@ -50,20 +17,17 @@ Want to know more about our community? Check out our [Community Portal.](https:/
 </a>
 </p>
 
+🚀 This repo contains the code for our [Community's official website](https://codezilla-club.github.io/website/home/)
 
+📌 Want to know more about our community? Check out our [Community Portal](https://community.mozilla.org/en/groups/codezilla/) and our <a href="https://codezilla-club.github.io/website/home/">Website</a>
 
-
-
-
-
-
-
-
-
-
-## 📊 Statistics 
+## 📊 Stats
 
 <p align="center">
+<img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" alt="html">
+<img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" alt="css">
+<img src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="javascript">
+<br>
 <img src="https://img.shields.io/github/stars/Codezilla-Club/website?style=for-the-badge" alt="github stars"></a>
 <a href="https://github.com/Codezilla-Club/website/network/members"><img src="https://img.shields.io/github/forks/Codezilla-Club/website?style=for-the-badge" alt="github forks"></a>
 <a href="https://github.com/Codezilla-Club/website/issues"><img src="https://img.shields.io/github/issues-raw/Codezilla-Club/website?style=for-the-badge" alt="open issues"></a>
@@ -76,23 +40,21 @@ Want to know more about our community? Check out our [Community Portal.](https:/
 </p>
 
 
-
-
-
-
-
 ## 🏅Contributors
-A huge shout out to our contribtutors! :sparkles:
+A huge shout out to our contribtutors! :sparkles: Want to contribute too? Check out our [Contributing Guidelines](./CONTRIBUTING.md) <br>
 
 <a href="https://github.com/Codezilla-Club/Python/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Codezilla-Club/website"/>
 </a>
 
+<br><br>
 
-
-
-
-
+<p align="center">
+<img src="https://forthebadge.com/images/badges/built-by-developers.svg" alt=" forks"/>
+<img src="https://forthebadge.com/images/badges/check-it-out.svg" al="forks"/>
+<img src="https://forthebadge.com/images/badges/built-with-love.svg" alt=" forks"/>
+<img src="https://forthebadge.com/images/badges/makes-people-smile.svg" alt=" forks"/>
+</p>
 
 <div align="center">
     <h3>Don't forget to ⭐ this repo</h3>
