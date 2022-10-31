@@ -1,87 +1,69 @@
 .event-cards {
-    display: flex;
-    justify-content: space-around;
-    margin: 1rem 10rem 0 10rem;
+  margin: 1rem 10rem 0 10rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  overflow: hidden;
+  width: 300px;
+  background: var(--secondary-font);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 300ms ease-out;
+}
+
+.card:hover {
+  transform: scale(1.005);
+}
+
+.card .card-desc h2 {
+  margin: 1rem 2rem;
+}
+
+.card .card-desc p {
+  margin: .5rem 1rem .5rem 1rem;
+  text-indent: 0;
+}
+
+.card > img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sponsor img {
+  position: absolute;
+  right: .75rem;
+  top: -1.7rem;
+  width: 2rem;
+  border-radius: 50%;
+  border: 0.25rem solid var(--secondary-font);
+}
+
+@media only screen and (max-width: 780px) {
+  .old {
+    display: none;
   }
-  
+
+  .event-cards {
+    margin: .5rem;
+    justify-content: center;
+  }
+
   .card {
-    overflow: hidden;
-    background: var(--secondary-font);
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
-    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
     width: 300px;
   }
-  
+
   .card .card-desc h2 {
-    margin: 1rem 2rem;
+    margin: .5rem;
   }
   
   .card .card-desc p {
-    margin: .5rem 1rem .5rem 1rem;
+    margin: .5rem;
     text-indent: 0;
   }
   
-  .card > img {
-    height: 150px;
-    width: 100%;
-    object-fit: cover;
-  }
-  
-  .sponsor img {
-    position: absolute;
-    right: .75rem;
-    top: -1.7rem;
-    width: 2rem;
-    border-radius: 50%;
-    border: 0.25rem solid var(--secondary-font);
-  }
-  
-  @media only screen and (max-width: 780px) {
-    .old {
-      display: none;
-    }
-  
-    .event-cards {
-      margin: .5rem;
-      justify-content: center;
-    }
-  
-    .card {
-      box-shadow: 0 0 5px rgba(0,0,0,0.2);
-      width: 300px;
-    }
-  
-    .card .card-desc h2 {
-      margin: .5rem;
-    }
-    
-    .card .card-desc p {
-      margin: .5rem;
-      text-indent: 0;
-    }
-    
-  }
-  
-  .card,
-  .old-card {
-    cursor: pointer;
-    transition: 300ms ease-out;
-  }
-
-  .card .call-to-action:hover,
-  .old-card .call-to-action:hover {
-    transform: scale(1.02);
-    background-color: #f96400;
-    box-shadow: 0px 0px 15px rgba(0,0,0,0.83);
-  }
-
-  .card .call-to-action:focus,
-  .old-card .call-to-action:focus {
-    background-color: #f96400;
-    box-shadow: 0px 0px 15px rgba(0,0,0,0.69);
-  }
-
-  .card:hover,
-  .old-card:hover {
-    transform: scale(1.038);
-  }
+}
