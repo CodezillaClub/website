@@ -1,190 +1,221 @@
 /* Nav Menu */
 
 .nav {
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    right: -60vw;
-    z-index: 1500;
-    opacity: 0;
-    width: 0;
-    transition: all 0.8s;
-  }
-  
-  .checkbox {
-    display: none;
-  }
-  
-  .checkbox:checked + .button .icon {
-    background-color: transparent;
-  }
-  
-  .checkbox:checked + .button .icon::before {
-    top: 0;
-    transform: rotate(135deg);
-  }
-  .checkbox:checked + .button .icon::after {
-    top: 0;
-    transform: rotate(-135deg);
-  }
-  
-  .button {
-    position: relative;
-    background-color: rgb(250, 250, 250);
-    height: 3rem;
-    width: 3rem;
-    border-radius: 50%;
-    position: fixed;
-    top: 5vh; 
-    right: 5vw;
-    z-index: 2000;
-    box-shadow: 0 0.25rem 2rem rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-  }
-  
-  .button:hover icon:before {
-    top: -1rem;
-  }
-  .button:hover icon::after {
-    top: 1rem;
-  }
-  
-  .background {
-    height: 3rem;
-    width: 3rem;
-    border-radius: 50%;
-    position: fixed;
-    top: 5vh; 
-    right: 5vw;
-    background: #203fb6;
-  /*       radial-gradient(rgb(0, 138, 251), rgb(190, 5, 117), rgb(190, 5, 117)); */
-    z-index: 1000;
-    transition: transform 0.5s ease-in-out;
-  }
-  
-  .nav-icon {
-    width: 1.5rem;
-    height: 1.5rem;
-    margin-right: 1rem;
-  }
-  
-  .list {
-    position: absolute;
-    top: 45%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-    list-style: none;
-    text-align: left;
-    width: 100%;
-  }
-  
-  .item {
-    margin: 1rem;
-    font-size: 36px;
-  }
-  
-  .link:link,
-  .link:visited {
-    display: inline-block;
-    font-size: 2rem;
-    font-weight: 300;
-    padding: 0.5rem 1rem;
-    color: white;
-    text-decoration: none;
-    background-size: 220%;
-    transition: all 0.1s;
-  }
-  
-  .link:hover {
-    color: rgb(184, 231, 255);
-    cursor: pointer;
-  }
-  
-  /* functionality */
-  .checkbox:checked ~ .background {
-    transform: scale(80);
-  }
-  .checkbox:checked ~ .nav {
-    opacity: 1;
-    width: 100%;
-    right: 0;
-  }
-  
-  /* styling hamb ICON */
-  .icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .icon,
-  .icon::before,
-  .icon::after {
-    width: 1.5rem;
-    height: 5px;
-    border-radius: 5px;
-    background-color: black;
-    display: inline-block;
-  }
-  
-  .icon::before,
-  .icon::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    transition: all 0.1s;
-  }
-  
-  .icon::before {
-    top: -0.5rem;
-  }
-  .icon::after {
-    top: 0.5rem;
-  }
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  right: -60vw;
+  z-index: 1500;
+  opacity: 0;
+  width: 0;
+  transition: all 0.8s;
+}
 
-  /* Socials Menu */
+.checkbox {
+  display: none;
+}
+
+.checkbox:checked + .button .icon {
+  background-color: transparent;
+}
+
+.checkbox:checked + .button .icon::before {
+  top: 0;
+  transform: rotate(135deg);
+}
+.checkbox:checked + .button .icon::after {
+  top: 0;
+  transform: rotate(-135deg);
+}
+
+.button {
+  background-color: rgb(250, 250, 250);
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 5vh; 
+  right: 5vw;
+  z-index: 2000;
+  box-shadow: 0 0.25rem 2rem rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.button:hover icon:before {
+  top: -1rem;
+}
+.button:hover icon::after {
+  top: 1rem;
+}
+
+.background {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  position: fixed;
+  top: 5vh; 
+  right: 5vw;
+  background: #181818;
+  z-index: 1000;
+  transition: transform 0.5s ease-in-out;
+}
+
+.nav-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 1rem;
+  fill: #fff;
+}
+
+.list {
+  position: absolute;
+  top: 45%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  list-style: none;
+  text-align: left;
+  width: 100%;
+}
+
+.item {
+  margin: 1rem;
+  font-size: 36px;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 0.5rem 1rem;
+  color: #a3a3a3;
+  text-decoration: none;
+  background-size: 220%;
+  transition: all 0.1s;
+}
+
+.link:hover {
+  background: var(--bg);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   
-  .socials {
-    position: relative;
-    background-color: rgb(250, 250, 250);
-    height: 2.5rem;
-    width: 2.5rem;
-    border-radius: 50%;
-    position: fixed;
-    z-index: 2000;
-    box-shadow: 0 0.25rem 1.5rem rgba(0, 0, 0, 0.3);
-    cursor: pointer;
-  }
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+/* functionality */
+.checkbox:checked ~ .background {
+  transform: scale(80);
+}
+.checkbox:checked ~ .nav {
+  opacity: 1;
+  width: 100%;
+  right: 0;
+}
+
+/* styling hamb ICON */
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.icon,
+.icon::before,
+.icon::after {
+  width: 1.5rem;
+  height: 5px;
+  border-radius: 5px;
+  background-color: black;
+  display: inline-block;
+}
+
+.icon::before,
+.icon::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  transition: all 0.1s;
+}
+
+.icon::before {
+  top: -0.5rem;
+}
+.icon::after {
+  top: 0.5rem;
+}
+
+/* Socials Menu */
+
+.socials {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 2000;
+  box-shadow: 0 0.25rem 1.5rem rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  padding: 2px;
+  border: 3px solid white;
+}
+
+.socials-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  fill: #fff;
   
-  .socials-icon {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  
-    
-    width: 1.5rem;
-    height: 1.5rem;
-    margin-right: 1rem;
-  }
-  
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+.socials:hover {
+  background: var(--bg);
+  transform: scale(1.1);
+}
+
+.twitter {
+  bottom: 14rem; 
+  left: 2rem;
+}
+
+.instagram {
+  bottom: 10rem;
+  left: 2rem;
+}
+
+.linkedin {
+  bottom: 6rem;
+  left: 2rem;
+}
+
+.github {
+  bottom: 2rem;
+  left: 2rem;
+}
+
+@media only screen and (max-width: 480px) {
   .twitter {
     bottom: 2rem; 
     left: 2rem;
   }
-  
+
   .instagram {
-    bottom: 2rem; 
+    bottom: 2rem;
     left: 6rem;
   }
-  
+
   .linkedin {
-    bottom: 2rem; 
+    bottom: 2rem;
     left: 10rem;
   }
-  
+
   .github {
     bottom: 2rem;
     left: 14rem;
   }
+}
