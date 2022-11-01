@@ -3,10 +3,39 @@
   padding: 0;
 }
 
+:root {
+  --bg: linear-gradient(45deg, #f8a530 0%, #fb3cab 100%);
+  --dark: #181818;
+}
+
+html,
 body {
-  background-color: #121221;
+  overflow: hidden;
+  background-color: var(--dark);
   color: #fff;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir, "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica, "Helvetica Neue", sans-serif;
+  font-family: 'Nunito', monospace;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  text-align: center;
+
+  cursor: default;
+  user-select: none;
+  -webkit-user-select: none; /*Safari*/
+  -moz-user-select: none; /*Firefox*/
+}
+
+.text .fours {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+}
+
+.text .fours p {
+  font-size: 17rem;
 }
 
 .sketch {
@@ -15,18 +44,18 @@ body {
     display:block;
 
     /* Dimentions */
-    width:auto;
+    width: auto;
     height: 100vh;
 
     /* Animation */
-    stroke-dasharray: 17975.623046875px;
-    stroke-dashoffset: 17975.623046875px;
-    animation: move 3s ease-in-out forwards;
+    stroke-dasharray: 18975.623046875px;
+    stroke-dashoffset: 18975.623046875px;
+    animation: move 7s cubic-bezier(0.93, 0.15, 0.14, 0.88) forwards;
     stroke: #fff;
 }
 
 @keyframes move {
-    100% {
-        stroke-dashoffset: 0;
-    }
+  100% {
+    stroke-dashoffset: 0;
+  }
 }
