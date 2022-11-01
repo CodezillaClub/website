@@ -5,7 +5,8 @@
 }
 
 :root {
---bg: linear-gradient(45deg, #f8a530 0%, #fb3cab 100%);
+  --bg: linear-gradient(45deg, #f8a530 0%, #fb3cab 100%);
+  --dark: #181818;
 }
 
 html,
@@ -20,7 +21,7 @@ body {
   position: relative;
 
   color: #fff;
-  background: #181818;
+  background: var(--dark);
 }
 
 .Loop {

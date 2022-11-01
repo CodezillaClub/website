@@ -29,7 +29,7 @@
 }
 
 .button {
-  background-color: rgb(250, 250, 250);
+  border: 3px solid white;
   height: 3rem;
   width: 3rem;
   border-radius: 50%;
@@ -55,7 +55,7 @@
   position: fixed;
   top: 5vh; 
   right: 5vw;
-  background: #181818;
+  background: var(--dark);
   z-index: 1000;
   transition: transform 0.5s ease-in-out;
 }
@@ -119,16 +119,16 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-60%, -50%);
 }
 
 .icon,
 .icon::before,
 .icon::after {
-  width: 1.5rem;
+  width: 1.2rem;
   height: 5px;
   border-radius: 5px;
-  background-color: black;
+  background-color: white;
   display: inline-block;
 }
 
@@ -141,10 +141,17 @@
 }
 
 .icon::before {
-  top: -0.5rem;
+  top: -0.55rem;
+  width: 1.5rem;
 }
 .icon::after {
-  top: 0.5rem;
+  top: 0.55rem;
+  width: 1.5rem;
+}
+
+.button:hover {
+  background: var(--bg);
+  transform: scale(1.1);
 }
 
 /* Socials Menu */
@@ -199,6 +206,10 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .list {
+    transform: translate(-75%, -50%);
+  }
+  
   .twitter {
     bottom: 2rem; 
     left: 2rem;
