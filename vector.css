@@ -20,11 +20,25 @@ body {
   position: absolute;
   top: 50%;
   text-align: center;
+  
+  animation-delay: 5s;
+  animation: 2s appear ease-out forwards;
 
   cursor: default;
   user-select: none;
   -webkit-user-select: none; /*Safari*/
   -moz-user-select: none; /*Firefox*/
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(-40%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-50%);
+  }
 }
 
 .text .fours {
