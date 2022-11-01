@@ -206,6 +206,10 @@
 }
 
 @media only screen and (max-width: 480px) {
+  .list {
+    transform: translate(-75%, -50%);
+  }
+  
   .twitter {
     bottom: 2rem; 
     left: 2rem;
