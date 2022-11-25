@@ -34,10 +34,42 @@ Add your contribution in the following format:
   - @ThanviChowdhary
 
 **Contribution(s):**
-  - Organization (@Akshara, @Likhith04)
-  - Promotional Content (@Akshu-on-github, @coolcoder2001, @ThanviChowdhary)
-  - Hosting (@Akshara604, @Akshu-on-github)
+  - Hosting
+  - Organization
+  - Event Promotion
 
 **Link:** [Twitter Space (recorded)](https://twitter.com/CodezillaClub/status/1581192640669790209?s=20&t=JyCEl_QeDtWCXHKC77ZfBQ)
+
+---
+
+**Event:** Web It Up!
+
+**Contributor(s):**
+  - @abisheikbarathan
+  - @Abishek-hue
+  - @Akshara604
+  - @Akshu-on-github
+  - @ananthram-g
+  - @cdkushan
+  - @Chirag21-11
+  - @i10Dev-i09-WD1
+  - @Likhith04
+  - @Manoj8017
+  - @prajin29
+  - @PreethiHarshini21
+  - @Priyadarshini-github
+  - @RiddhiGope2002
+  - @Shaurya272003
+  - @ThanviChowdhary
+
+**Contribution(s):**
+  - Speakers
+  - Hosting
+  - Organization
+  - At-venue Support
+  - Event Promotion
+  - Audience Management
+
+**Link:** [Mozilla Portal](https://community.mozilla.org/en/events/web-it-up-from-design-to-code/)
 
 ---
